@@ -29,12 +29,12 @@
       fit-into="{{fitInto}}"
       horizontal-align="{{horizontalAlign}}"
       vertical-align="{{verticalAlign}}"
-      duration="{{duration}}"
+      duration="4000"
       text="{{text}}"
       no-cancel-on-outside-click="{{noCancelOnOutsideClick}}"
       no-auto-focus="{{noAutoFocus}}"
     >
-    </paper-alert>
+    </paper-toast>
 
   </template>
 
@@ -73,15 +73,7 @@
           notify:true
         },
 
-        /**
-         * The duration in milliseconds to show the toast.
-         * Set to `0`, a negative number, or `Infinity`, to disable the
-         * toast auto-closing.
-         */
-        duration: {
-          type: Number,
-          notify:true
-        },
+
 
         /**
          * The text to display in the toast.

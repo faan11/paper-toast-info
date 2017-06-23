@@ -10,6 +10,7 @@
 
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../../paper-button/paper-button.html">
     <link rel="import" href="../paper-toast-info.html">
 
     <style is="custom-style" include="demo-pages-shared-styles">
@@ -20,7 +21,8 @@
       <h3>Basic paper-toast-info demo</h3>
       <demo-snippet>
         <template>
-          <paper-toast-info></paper-toast-info>
+          <paper-button raised onclick="toast0.open()">Default toast</paper-button>
+          <paper-toast-info id="toast0" text="hello world"></paper-toast-info>
         </template>
       </demo-snippet>
     </div>
