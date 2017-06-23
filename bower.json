@@ -1,0 +1,14 @@
+{
+  "name": "paper-toast-info",
+  "main": "paper-toast-info.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer",
+    "paper-toast": "PolymerElements/paper-toast"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers",
+    "web-component-tester": "Polymer/web-component-tester",
+    "webcomponentsjs": "webcomponents/webcomponentsjs"
+  }
+}
